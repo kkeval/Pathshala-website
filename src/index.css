@@ -137,7 +137,7 @@ main div img {
   transition: filter 0.2s ease-in-out;
 }
 .middle-img:hover {
-  filter: drop-shadow(0px 0px 15px rgba(255, 0, 0, 0.459));
+  filter: drop-shadow(0px 0px 35px rgba(255, 0, 0, 0.726));
 }
 
 /********* Hovering Effects ************/

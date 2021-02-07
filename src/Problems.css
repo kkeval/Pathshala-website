@@ -20,18 +20,16 @@
     top: 150px;
 }
 .wmya>div {
-
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
   clip-path: polygon(100% 0, 100% 70%, 0 70%, 0 0);
-
 }
-.wmya>div:hover{
-  
+.wmya>div:hover{  
   webkit-transform: rotate(-10deg);
+  transform: scale(1.2, 1.2);
   transform: rotate(-5deg);
-  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
-  filter: drop-shadow(0px 0px 10px  rgba(0, 0, 0, 0.39));
+  clip-path: polygon(100% 10%, 120% 120%, 0 120%, 0 0);
+
 }
 
 .container {
