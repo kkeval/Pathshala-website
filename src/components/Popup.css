@@ -1,0 +1,20 @@
+.popup{
+    position: relative;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-inner {
+    position: absolute;
+
+   
+
+}
+.popup-innter .close-btn{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+   
+} 

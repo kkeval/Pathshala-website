@@ -1,5 +1,7 @@
 import Homeicon from '../images/download.png';
 import {Link} from 'react-router-dom';
+import '../index.css'
+
 
 const Navbar = () => {
     return (

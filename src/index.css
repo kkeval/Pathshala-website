@@ -1,11 +1,8 @@
 html,body {
   margin: 0;
 }
-
 /****** Background Images ****/
-
 body {
-    overflow: hidden;
 
   background: url(./images/background.jpg);
   background-size: cover;
