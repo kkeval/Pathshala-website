@@ -1,37 +1,39 @@
-html,body {
+body, html {
+  height: 100%;
   margin: 0;
 }
 /****** Background Images ****/
-body {
-
-  background: url(./images/background.jpg);
+#root{
+  height: 100%;
+}
+.mainpage{
+  position: fixed;
+  background: url('./images/background.jpg');
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
-#root{
-   
-}
-.App{
-   
-}
-.content{
-    
+
+main{
 }
 .nav img {
-    
+  position: absolute;
   margin-left: 30px;
   width: 60px;
   height: 60px;
 }
 .nav {
+  
   top: 50px;
   left: 40px;
   position: absolute;
-
   transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-.nav:hover {
-  
-}
+
 
 .main {
 

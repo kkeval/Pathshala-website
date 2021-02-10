@@ -1,22 +1,19 @@
-import './App.css';
-import MainPage from './components/MainPage';
-import Navbar from './components/Navbar.js';
-import { Route } from "react-router-dom";
-import Problems from './components/Problems';
+import "./App.css";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import MainPage from "./components/MainPage";
+import NavBar from "./components/NavBar";
+import Problems from "./components/Problems.js";
 
-function App() { 
-
+function App() {
   return (
-
-    <div className="App">          
-      <Navbar />
-      <div className="content">
-        <Route exact path="/" component={MainPage} />
-        <Route exact path="/Problems" component={Problems} />
-      </div>
-      
+    <div className="App">
+      <NavBar />
+      <Switch>
+        <Route path="/Home" exact component={() => <MainPage />} />
+        <Route path="/" exact component={() => <MainPage />} />
+        <Route path="/Problems" exact component={() => <Problems />} />
+      </Switch>
     </div>
-
   );
 }
 export default App;

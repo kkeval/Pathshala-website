@@ -6,7 +6,7 @@ import '../index.css'
 const Navbar = () => {
     return (
         <div className="nav">
-            <Link to="/">
+            <Link to="/Home">
                 <img src={Homeicon} alt="" />
             </Link>
         </div>
