@@ -12,7 +12,7 @@ function MainPage (){
   return (
     <div className="main mainpage">
       <div className="nav">
-            <Link to="/Home">
+            <Link to="/">
                 <img src={Homeicon} alt="" />
             </Link>
         </div>
